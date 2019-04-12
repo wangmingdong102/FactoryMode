@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="battery_check">电池检查</string>
+    <string name="normal_battery">普通电池</string>
+    <string name="high_battery">高压电池</string>
+    <string name="unknow_battery">未知</string>
+</resources>

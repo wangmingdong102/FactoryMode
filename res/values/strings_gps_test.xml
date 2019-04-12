@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="gps_test">GPS校准</string>
+    <string name="gps_test_name">GPS校准</string>
+    <string name="gps_test_bt_ok_title">成功</string>
+    <string name="gps_test_bt_failed_title">失败</string>
+    <string name="gps_test_c0_title">C0</string>
+    <string name="gps_test_c1_title">C1</string>
+    <string name="gps_test_initU_title">initU</string>
+    <string name="gps_test_lastU_title">lastU</string>
+    <string name="gps_test_result_title">GPS校准结果</string>
+</resources>
