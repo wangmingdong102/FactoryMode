@@ -18,6 +18,9 @@ public class NvRAMAdapter {
     public static int readNvRAM() {
         IBinder binder = ServiceManager.getService("NvRAMAgent");
         NvRAMAgent agent = NvRAMAgent.Stub.asInterface(binder);
+        if(agent == null){
+            return 0;
+        }
         binder = ServiceManager.getService("NvRAMBackup");
         byte[] readBuff = null;
         try {
@@ -40,6 +43,9 @@ public class NvRAMAdapter {
     public static void writeNvRam(int resultFlag) {
         IBinder binder = ServiceManager.getService("NvRAMAgent");
         NvRAMAgent agent = NvRAMAgent.Stub.asInterface(binder);
+        if(agent == null){
+            return;
+        }
         binder = ServiceManager.getService("NvRAMBackup");
         byte[] readBuff = null;
         try {
